@@ -334,7 +334,8 @@ h1 {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
-    width: 13.2%;
+    /* width: 13.2%; */
+    width: 160px;
 }
 .skill__block_text{
     display: flex;
@@ -398,6 +399,9 @@ h1 {
   .header__sidebar img {
     margin: 3px auto;
     width: 100%;
+  }
+  .skill{
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 769px) {
